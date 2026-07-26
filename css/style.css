@@ -484,11 +484,22 @@ nav a:hover{
 
 .about-image img{
 
-    width:100%;
+     width:350px;
 
-    border-radius:20px;
+    height:350px;
+
+    object-fit:cover;
+
+    border-radius:50%;
 
     box-shadow:0 10px 30px rgba(0,0,0,.15);
+
+    transition:.5s;
+
+}
+.about-image img:hover{
+
+    transform:scale(1.05);
 
 }
 
@@ -716,7 +727,13 @@ section{
 
 
 @media(max-width:768px){
+.about-image img{
 
+    width:250px;
+
+    height:250px;
+
+}
 
 header{
 
