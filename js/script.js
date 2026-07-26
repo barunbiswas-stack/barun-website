@@ -97,3 +97,25 @@ window.addEventListener("scroll", function(){
 });
 
 
+
+// ================= LOADING SCREEN =================
+
+
+window.addEventListener("load", function(){
+
+    let loader = document.querySelector(".loader");
+
+    loader.classList.add("hide");
+
+});
+
+
+
+
+
+
+
+
+
+
+
