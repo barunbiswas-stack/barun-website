@@ -113,7 +113,22 @@ window.addEventListener("load", function(){
 
 
 
+// ================= PREMIUM LOADER =================
 
+
+window.addEventListener("load",function(){
+
+    let loader = document.querySelector(".loader");
+
+
+    setTimeout(function(){
+
+        loader.classList.add("hide");
+
+    },1500);
+
+
+});
 
 
 
